@@ -1,0 +1,13 @@
+#! /bin/bash
+
+case "$1" in
+   "bowling")
+        java -classpath ./build/libs/* io.dukecvar.bowling.Bowling
+        ;;
+   "maxspike")
+        java -classpath ./build/libs/* io.dukecvar.maxspike.Main
+        ;;
+    *)
+        echo 'usage run <maxspike|bowling>'
+        ;;
+esac
