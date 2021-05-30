@@ -83,3 +83,6 @@ score hasn't yet been tallied for that frame).
 
 ### Run it
 `./run bowling`
+
+This line left confusing and needless on purpose.
+
